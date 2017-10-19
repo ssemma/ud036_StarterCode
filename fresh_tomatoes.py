@@ -15,6 +15,7 @@ main_page_head = '''
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
     <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script type='text/javascript' src='config.js'></script>
     <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
     <style type="text/css" media="screen">
         body {
@@ -70,6 +71,8 @@ main_page_head = '''
               
     </style>
     <script type="text/javascript" charset="utf-8">
+        //declare variables that point to my API KEY
+        var API_KEY = config.API_KEY;
         // Pause the video when the modal is closed
         $(document).on('click', '.hanging-close, .modal-backdrop, .modal', function (event) {
             // Remove the src so the player itself gets removed, as this is the only

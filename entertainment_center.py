@@ -16,8 +16,6 @@ import requests
         # Pass the test
         break'''
 
-API_KEY = "5e0d551fc0e7ff087a1f4460c4f7ebb0"
-
 
 conn = httplib.HTTPSConnection("api.themoviedb.org")
 
