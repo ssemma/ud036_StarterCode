@@ -7,8 +7,8 @@ from youtube.
 2. You can visit the website [here](https://www.python.org/downloads/release/python-279/) to download 
 3. Please register an account from [TMDb](https://www.themoviedb.org/)
 4. In your **TMDb account**, go to setting, then go to API, then create an API KEY
-5. Please make a python file in the same directory and folder with media.py, fresh_tomatoes.py,entertainment_center.py 
-6. Please named the python file you made as **config.py**. 
+5. Please create a new python file--**config.py** in the same directory and folder with media.py, fresh_tomatoes.py,entertainment_center.py 
+6. Please named the python file you create as **config.py**. 
 7.  **content of config.py** 
 ```
     def init():
