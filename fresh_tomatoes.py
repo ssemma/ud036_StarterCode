@@ -56,6 +56,18 @@ main_page_head = '''
             top: 0;
             background-color: white;
         }
+        .footer {
+                position: fixed;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                background-color: white;
+                color: black;
+                text-align: center;
+                }
+        }
+        
+              
     </style>
     <script type="text/javascript" charset="utf-8">
         // Pause the video when the modal is closed
@@ -115,6 +127,12 @@ main_page_content = '''
     <div class="container">
       {movie_tiles}
     </div>
+    
+    <div class="footer">
+    <p>This product uses the TMDb API but is not endorsed or certified by TMDb
+ <img src="https://www.themoviedb.org/assets/static_cache/dd25a8d6d44072f1be5a9daf03470526/images/v4/logos/293x302-powered-by-square-green.png" height="42" width="42">
+ </p>
+ </div>
   </body>
 </html>
 '''
