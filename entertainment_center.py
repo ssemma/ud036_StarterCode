@@ -4,18 +4,9 @@ import httplib
 import json
 import requests
 
-# Make sure user apply their own API_KEY
-'''while True:
-    try:
-        API_KEY = raw_input("API_KEY:")
-    except ValueError:
-        print("Please provide a valide TMDb API_KEY.")
-        # Back to the loop to prompt user's API_KEY
-        continue
-    else:
-        # Pass the test
-        break'''
 
+# Apply API_KEY
+API_KEY = '5e0d551fc0e7ff087a1f4460c4f7ebb0'
 
 conn = httplib.HTTPSConnection("api.themoviedb.org")
 
@@ -78,7 +69,9 @@ for movie in movies:
     movie["id"] = media.Movie(movie["title"], movie["poster_image"],
                   movie["trailer_youtube"])
     # print(movie["title"])
+    # store them in a list
     readymovies.append(movie["id"])  
 # print readymovies
 
+# Input all the values that needed in the page
 fresh_tomatoes.open_movies_page(readymovies)
