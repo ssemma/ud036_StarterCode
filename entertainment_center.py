@@ -3,10 +3,11 @@ import fresh_tomatoes
 import httplib
 import json
 import requests
+import config
 
 
 # Apply API_KEY
-API_KEY = '5e0d551fc0e7ff087a1f4460c4f7ebb0'
+API_KEY = config.init()
 
 conn = httplib.HTTPSConnection("api.themoviedb.org")
 
