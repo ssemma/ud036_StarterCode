@@ -4,7 +4,6 @@ import httplib
 import json
 import requests
 
-
 # Make sure user apply their own API_KEY
 '''while True:
     try:
@@ -36,7 +35,6 @@ data = res.read()
 # JSON the results of the data of all movies
 informations = data.decode("utf-8")
 json_informations = json.loads(informations)
-
 
 # print(json_informations)
 # print(json_informations["results"][1]["poster_path"])
