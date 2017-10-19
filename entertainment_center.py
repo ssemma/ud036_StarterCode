@@ -42,6 +42,7 @@ json_informations = json.loads(informations)
 # print(json_informations["results"][1]["poster_path"])
 # print(len(json_informations["results"]))
 # iterate data of all movies to obtain their'id, title, poser_image_url
+movies = []
 for i in range(0, len(json_informations["results"])):
     dictionary_movie = {"title": json_informations["results"][i]["title"],
                         "id": json_informations["results"][i]["id"],
