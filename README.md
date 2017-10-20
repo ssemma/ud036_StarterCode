@@ -25,7 +25,4 @@ from youtube.
 1. This product uses the TMDb API but is not endorsed or certified by TMDb 
 2. The source code of the fresh_tomatoes.py is from [udacity](https://github.com/udacity/ud036_StarterCode)
 
-## FAQ
-The movie trailer website contains all the movies that I queried. However, sometimes, it will show up with the extra spaces 
-between movies. Luckily, the youtube trailer is working as I intended. 
-So the page is still working, but sometimes the html will display weirdly. 
+
